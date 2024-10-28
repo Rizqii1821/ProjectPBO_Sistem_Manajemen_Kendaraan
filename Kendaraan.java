@@ -1,10 +1,9 @@
 class Kendaraan {
-    private String platNomor; // Encapsulation (private attribute)
+    private String platNomor; 
     private String merk;
     protected int tahun;
     private int kapasitasMesin;
 
-    // Overloading constructor
     public Kendaraan(String platNomor, String merk, int tahun, int kapasitasMesin) {
         this.platNomor = platNomor;
         this.merk = merk;
@@ -12,7 +11,6 @@ class Kendaraan {
         this.kapasitasMesin = kapasitasMesin;
     }
 
-    // Getter dan Setter untuk platNomor (Encapsulation)
     public String getPlatNomor() {
         return platNomor;
     }
